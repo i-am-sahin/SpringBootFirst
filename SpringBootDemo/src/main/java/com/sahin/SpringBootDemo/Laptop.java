@@ -4,12 +4,12 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
 @Component
-public class Alien {
-    @Autowired //Creating a wiring between Alien and Laptop
-    Laptop laptop;
-    void code(){
-        laptop.compile();
+public class Laptop {
+    @Autowired
+    Cpu cpu;
 
-
+    void compile(){
+        System.out.println("Compiling!!");
+        cpu.running();
     }
 }

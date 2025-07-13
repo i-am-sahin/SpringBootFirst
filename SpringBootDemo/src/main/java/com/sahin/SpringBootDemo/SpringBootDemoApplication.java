@@ -16,6 +16,12 @@ public class SpringBootDemoApplication {
 		Alien obj = context.getBean(Alien.class);
 		obj.code();
 
+//		Laptop lap = context.getBean(Laptop.class);
+//		lap.compile();
+
+//		Cpu cpu = context.getBean(Cpu.class);
+//		cpu.running();
+
 	}
 
 }
