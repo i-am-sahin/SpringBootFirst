@@ -15,7 +15,7 @@ public class SpringBootDemoApplication {
 		//Creating Objects with help of SpringBoot
 		Alien obj = context.getBean(Alien.class);
 		obj.code();
-
+		System.out.println(obj.getAge());
 //		Laptop lap = context.getBean(Laptop.class);
 //		lap.compile();
 
