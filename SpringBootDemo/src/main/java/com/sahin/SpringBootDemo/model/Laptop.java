@@ -1,4 +1,4 @@
-package com.sahin.SpringBootDemo;
+package com.sahin.SpringBootDemo.model;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;

@@ -1,7 +1,6 @@
-package com.sahin.SpringBootDemo;
+package com.sahin.SpringBootDemo.model;
 
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Component;
 
@@ -30,7 +29,7 @@ public class Alien {
         this.com = com;
     }
 
-    void code(){
+     void code(){
         com.compile();
 
 
